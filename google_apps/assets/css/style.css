@@ -1,0 +1,87 @@
+
+
+/* ---------------------header css------------------- */
+
+header{
+    background-color: var(--secondary-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+header img{
+    height: 60px;
+}
+header h1{
+    line-height: 53px;
+}
+
+/* --------------------main css ----------------------------*/
+
+main .heading {
+    padding: 0 40px;
+}
+main .apps {
+    background-color: var(--secondary-color);
+    padding: 25px;
+    min-height: 60vh;
+}
+main .search{
+    margin-bottom: 60px;
+}
+main .search .form-group{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    scale: 1;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+    background-color: var(--primary-color);
+}
+.card:hover{
+    scale: 1.12;
+}
+
+.apps .card-body {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.apps .appType{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    min-width: 50%;
+    text-align: center;
+    position: absolute;
+	right: -35px;
+	top: 25px;
+	rotate: 45deg;
+}
+
+.apps .appInfo{
+    padding: 15px;
+}
+.apps .appInfo h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: bold;
+    height: 60px;
+    margin-top: 40px;
+    max-width: 90%;
+}
+.apps .appInfo p {
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+    white-space: nowrap;
+    height: 80px;
+    margin-top: 10px;
+}
+.apps .appInfo a{
+    display: inline-block;
+    height: 38px;
+}
