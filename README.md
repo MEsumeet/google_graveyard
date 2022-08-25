@@ -1,2 +1,2 @@
 # google_graveyard
-goggle dead apps- using html, css, js, bootstrap
+'google dead apps' UI- using html, css, js, bootstrap
